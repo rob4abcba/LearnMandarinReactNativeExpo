@@ -14,7 +14,7 @@ export interface Emoji {
   "es": string;
   "en": string;
   "pt": string;
-  "zh_Hant": string;
+  "zhHant": string;
   "ko": string;
   "ja": string;
 }

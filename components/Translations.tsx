@@ -18,7 +18,7 @@ const colors = {
   fr: "#638fcf",
   es: "#803758",
   pt: "#e74446",
-  zhHant: "#d1413d",
+  zhHant: "#f9dde0",
   ko: "#1f5593",
   ja: "#f9dde0",
 
@@ -75,7 +75,7 @@ export default class Translations extends React.PureComponent<TranslationsProps>
 const styles = StyleSheet.create({
   container: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "red",
+    backgroundColor: "pink",
   },
   flag: {
     textAlign: "center",
