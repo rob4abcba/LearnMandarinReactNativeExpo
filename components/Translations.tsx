@@ -17,8 +17,8 @@ const colors = {
   it: "#448d5d",
   fr: "#638fcf",
   es: "#803758",
-  pt: "#e74446",
-  zhHant: "#f9dde0",
+  pt: "#e75556",
+  zhHant: "#e72226",
   ko: "#1f5593",
   ja: "#f9dde0",
 
