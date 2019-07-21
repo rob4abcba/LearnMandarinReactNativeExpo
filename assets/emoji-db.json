@@ -2,265 +2,217 @@
       "久": {
         "zhSimp": "久",
         "py": "Jiǔ",
-        "en1": "Long",
-        "es": "bebé",
+        "en1": "Long time",
+        "en2": "For a long time",
         "en": "Jiǔ",
-        "pt": "bebê",
-        "zhTrad": "久",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "Grow late",
+        "zhTrad": "久"
       },
       "未": {
         "zhSimp": "未",
         "py": "wèi",
-        "en1": "not",
-        "es": "bebé",
+        "en1": "not yet",
+        "en2": "did not",
         "en": "wèi",
-        "pt": "bebê",
-        "zhTrad": "未",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "have not",
+        "zhTrad": "未"
       },
       "放": {
         "zhSimp": "放",
         "py": "fàng",
-        "en1": "put",
-        "es": "bebé",
+        "en1": "let go",
+        "en2": "set free",
         "en": "fàng",
-        "pt": "bebê",
-        "zhTrad": "放",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "release",
+        "zhTrad": "放"
       },
       "晴": {
         "zhSimp": "晴",
         "py": "qíng",
-        "en1": "sunny",
-        "es": "bebé",
+        "en1": "clear weather",
+        "en2": "fine weather",
         "en": "qíng",
-        "pt": "bebê",
-        "zhTrad": "晴",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "clear, fine",
+        "zhTrad": "晴"
       },
       "的": {
         "zhSimp": "的",
         "py": "de",
         "en1": "of",
-        "es": "bebé",
+        "en2": "connects adj to noun",
         "en": "de",
-        "pt": "bebê",
-        "zhTrad": "的",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "forms nominal expression",
+        "zhTrad": "的"
       },
       "天": {
         "zhSimp": "天",
         "py": "tiān",
-        "en1": "day",
-        "es": "bebé",
+        "en1": "sky",
+        "en2": "heaven",
         "en": "tiān",
-        "pt": "bebê",
-        "zhTrad": "天",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "overhead",
+        "zhTrad": "天"
       },
       "空": {
         "zhSimp": "空",
         "py": "kōng",
         "en1": "air",
-        "es": "bebé",
+        "en2": "empty",
         "en": "kōng",
-        "pt": "bebê",
-        "zhTrad": "空",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "sky",
+        "zhTrad": "空"
       },
       "依": {
         "zhSimp": "依",
         "py": "Yī",
-        "en1": "according to",
-        "es": "bebé",
+        "en1": "depend on",
+        "en2": "rely on",
         "en": "Yī",
-        "pt": "bebê",
-        "zhTrad": "依",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "comply with",
+        "zhTrad": "依"
       },
       "旧": {
         "zhSimp": "旧",
         "py": "jiù",
-        "en1": "old",
-        "es": "bebé",
+        "en1": "old friend",
+        "en2": "past",
         "en": "jiù",
-        "pt": "bebê",
-        "zhTrad": "旧",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "bygone",
+        "zhTrad": "旧"
       },
       "留": {
         "zhSimp": "留",
         "py": "liú",
         "en1": "stay",
-        "es": "bebé",
+        "en2": "remain",
         "en": "liú ",
-        "pt": "bebê",
-        "zhTrad": "留",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "keep",
+        "zhTrad": "留"
       },
       "着": {
         "zhSimp": "着",
         "py": "zhe",
-        "en1": "The",
-        "es": "bebé",
+        "en1": "-ing indicates",
+        "en2": "continuing",
         "en": "zhe",
-        "pt": "bebê",
-        "zhTrad": "着",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "action",
+        "zhTrad": "着"
       },
       "妳": {
         "zhSimp": "妳",
         "py": "nǎi",
         "en1": "You",
-        "es": "bebé",
+        "en2": "female",
         "en": "nǎi",
-        "pt": "bebê",
-        "zhTrad": "妳",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "version",
+        "zhTrad": "妳"
       },
-      "的": {
+      "的2": {
         "zhSimp": "的",
         "py": "de",
         "en1": "of",
-        "es": "bebé",
+        "en2": "connects adj",
         "en": "de",
-        "pt": "bebê",
-        "zhTrad": "的",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "to noun",
+        "zhTrad": "的"
       },
       "笑": {
         "zhSimp": "笑",
         "py": "xiào",
-        "en1": "Laugh",
-        "es": "bebé",
+        "en1": "smile",
+        "en2": "laugh",
         "en": "xiào",
-        "pt": "bebê",
-        "zhTrad": "笑",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "snicker",
+        "zhTrad": "笑"
       },
       "容": {
         "zhSimp": "容",
         "py": "róng",
-        "en1": "Capacity",
-        "es": "bebé",
+        "en1": "facial",
+        "en2": "expression",
         "en": "róng",
-        "pt": "bebê",
-        "zhTrad": "容",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "appearance",
+        "zhTrad": "容"
       },
       "哭": {
         "zhSimp": "哭",
         "py": "kū",
         "en1": "Cry",
-        "es": "bebé",
+        "en2": "Weep",
         "en": "kū",
-        "pt": "bebê",
-        "zhTrad": "哭",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "Wail",
+        "zhTrad": "哭"
       },
       "过": {
         "zhSimp": "过",
         "py": "guò",
-        "en1": "Over",
-        "es": "bebé",
+        "en1": "indicates",
+        "en2": "completed",
         "en": "guò",
-        "pt": "bebê",
-        "zhTrad": "过",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "action",
+        "zhTrad": "过"
       },
       "却": {
         "zhSimp": "却",
         "py": "què",
-        "en1": "But",
-        "es": "bebé",
+        "en1": "but",
+        "en2": "yet",
         "en": "què",
-        "pt": "bebê",
-        "zhTrad": "却",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "however",
+        "zhTrad": "却"
       },
       "无": {
         "zhSimp": "无",
         "py": "wú",
-        "en1": "No",
-        "es": "bebé",
+        "en1": "not have",
+        "en2": "not",
         "en": "wú",
-        "pt": "bebê",
-        "zhTrad": "无",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "without",
+        "zhTrad": "无"
       },
       "法": {
         "zhSimp": "法",
         "py": "fǎ",
-        "en1": "Law",
-        "es": "bebé",
+        "en1": "method",
+        "en2": "way",
         "en": "fǎ",
-        "pt": "bebê",
-        "zhTrad": "法",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "law",
+        "zhTrad": "法"
       },
       "掩": {
         "zhSimp": "掩",
         "py": "yǎn",
-        "en1": "Cover",
-        "es": "bebé",
+        "en1": "cover",
+        "en2": "hide",
         "en": "yǎn",
-        "pt": "bebê",
-        "zhTrad": "掩",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "shut",
+        "zhTrad": "掩"
       },
       "埋": {
         "zhSimp": "埋",
         "py": "mái",
-        "en1": "Buried",
-        "es": "bebé",
+        "en1": "bury",
+        "en2": "conceal",
         "en": "mái",
-        "pt": "bebê",
-        "zhTrad": "埋",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "hide",
+        "zhTrad": "埋"
       },
       "歉": {
         "zhSimp": "歉",
         "py": "qiàn",
-        "en1": "Apologize",
-        "es": "bebé",
+        "en1": "apology",
+        "en2": "regret",
         "en": "qiàn",
-        "pt": "bebê",
-        "zhTrad": "歉",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "deficient",
+        "zhTrad": "歉"
       },
       "疚": {
         "zhSimp": "疚",
         "py": "jiù",
-        "en1": "疚",
-        "es": "bebé",
+        "en1": "remorse",
+        "en2": "guilt",
         "en": "jiù",
-        "pt": "bebê",
-        "zhTrad": "疚",
-        "ko": "아기",
-        "ja": "ベビー"
+        "en3": "disease",
+        "zhTrad": "疚"
       }
   }

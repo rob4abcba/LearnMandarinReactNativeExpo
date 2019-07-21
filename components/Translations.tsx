@@ -16,23 +16,18 @@ const colors = {
   zhSimp: "#3e3a3f",
   py: "#448d5d",
   en1: "#638fcf",
-  es: "#803758",
-  pt: "#e75556",
-  zhTrad: "#e72226",
-  ko: "#1f5593",
-  ja: "#f9dde0",
-
+  en2: "#803758",
+  en3: "#e75556",
+  zhTrad: "#e72226"
 };
 
 const flags = {
   zhSimp: "Chinese Simplified (swipe left)",
   py: "Pinyin (swipe left or right)",
   en1: "English1 (swipe left or right)",
-  es: "🇪🇸",
-  pt: "🇵🇹",
-  zhTrad: "🇨🇳",
-  ko: "🇰🇷",
-  ja: "🇯🇵",
+  en2: "English2 (swipe left or right)",
+  en3: "English3 (swipe left or right)",
+  zhTrad: "Chinese Traditional (swipe right)"
 };
 
 interface TranslationsProps {
