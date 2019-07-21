@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   translation: {
     margin: 48,
     textAlign: "center",
-    fontSize: 48,
+    fontSize: 24,
     color: "white",
     fontWeight: "bold",
   },

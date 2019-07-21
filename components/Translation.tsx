@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { TextInput } from 'react-native';
-import {DangerZone} from "expo"
+import {DangerZone} from "expo";
+// import DynamicFont from 'react-dynamic-font';
+// import ScalableText from 'react-native-text';
 
 const {Animated} = DangerZone;
 const {Value, call} = Animated;
