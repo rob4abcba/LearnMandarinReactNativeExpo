@@ -14,8 +14,8 @@ const { width } = Dimensions.get("window");
 
 const colors = {
   zhSimp: "#3e3a3f",
-  it: "#448d5d",
-  fr: "#638fcf",
+  py: "#448d5d",
+  en1: "#638fcf",
   es: "#803758",
   pt: "#e75556",
   zhTrad: "#e72226",
@@ -25,9 +25,9 @@ const colors = {
 };
 
 const flags = {
-  zhSimp: "🇨🇳",
-  it: "🇮🇹",
-  fr: "🇫🇷",
+  zhSimp: "Chinese Simplified (swipe left)",
+  py: "Pinyin (swipe left or right)",
+  en1: "English1 (swipe left or right)",
   es: "🇪🇸",
   pt: "🇵🇹",
   zhTrad: "🇨🇳",
