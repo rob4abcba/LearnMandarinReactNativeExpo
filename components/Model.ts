@@ -8,13 +8,13 @@ export const EMOJI_WIDTH = FONT_SIZE + PADDING * 2;
 export const EMOJIS_OFFSET = (width - EMOJI_WIDTH) / 2;
 
 export interface Emoji {
-  "de": string;
+  "zhSimp": string;
   "it": string;
   "fr": string;
   "es": string;
   "en": string;
   "pt": string;
-  "zhHant": string;
+  "zhTrad": string;
   "ko": string;
   "ja": string;
 }

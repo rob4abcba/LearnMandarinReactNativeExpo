@@ -45,6 +45,7 @@ export default () => {
       </View>
       <Animated.ScrollView
         style={styles.verticalPan}
+        // verticalPanContent slightly bigger so there is something to pan
         contentContainerStyle={styles.verticalPanContent}
         showsVerticalScrollIndicator={false}
         onScroll={onScroll({ y })}

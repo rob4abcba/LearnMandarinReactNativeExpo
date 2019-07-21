@@ -13,24 +13,24 @@ const {
 const { width } = Dimensions.get("window");
 
 const colors = {
-  de: "#3e3a3f",
+  zhSimp: "#3e3a3f",
   it: "#448d5d",
   fr: "#638fcf",
   es: "#803758",
   pt: "#e75556",
-  zhHant: "#e72226",
+  zhTrad: "#e72226",
   ko: "#1f5593",
   ja: "#f9dde0",
 
 };
 
 const flags = {
-  de: "🇩🇪",
+  zhSimp: "🇨🇳",
   it: "🇮🇹",
   fr: "🇫🇷",
   es: "🇪🇸",
   pt: "🇵🇹",
-  zhHant: "🇨🇳",
+  zhTrad: "🇨🇳",
   ko: "🇰🇷",
   ja: "🇯🇵",
 };
