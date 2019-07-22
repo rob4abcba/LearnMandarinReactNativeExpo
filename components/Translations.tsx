@@ -75,6 +75,7 @@ const styles = StyleSheet.create({
   },
   translation: {
     margin: 48,
+    // alignSelf: 'flex-start' // Not centered
     textAlign: "center",
     fontSize: 24,
     color: "white",

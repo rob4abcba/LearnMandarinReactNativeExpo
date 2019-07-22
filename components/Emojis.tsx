@@ -45,6 +45,7 @@ export default class extends React.PureComponent<EmojisProps> {
                 extrapolate: Extrapolate.CLAMP,
               });
               return (
+                <>
                 <Animated.View
                   key={emoji}
                   style={[styles.emoji, {
@@ -61,6 +62,7 @@ export default class extends React.PureComponent<EmojisProps> {
                     {emoji}
                   </Text>
                 </Animated.View>
+                </>
               );
             })
           }

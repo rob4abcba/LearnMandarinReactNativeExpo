@@ -9,14 +9,12 @@ export const EMOJIS_OFFSET = (width - EMOJI_WIDTH) / 2;
 
 export interface Emoji {
   "zhSimp": string;
-  "it": string;
-  "fr": string;
-  "es": string;
+  "py": string;
+  "en1": string;
+  "en2": string;
   "en": string;
-  "pt": string;
+  "en3": string;
   "zhTrad": string;
-  "ko": string;
-  "ja": string;
 }
 
 export interface Emojis {
