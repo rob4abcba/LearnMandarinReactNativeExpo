@@ -73,15 +73,15 @@ const styles = StyleSheet.create({
     ...StyleSheet.absoluteFillObject,
     backgroundColor: "pink",
   },
-  flag: {
-    textAlign: "center",
-    fontSize: 24,
-  },
   translation: {
     margin: 48,
     textAlign: "center",
     fontSize: 24,
     color: "white",
     fontWeight: "bold",
+  },
+  flag: {
+    textAlign: "center",
+    fontSize: 20,
   },
 });
