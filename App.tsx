@@ -13,7 +13,7 @@ import Translation from "./components/Translation";
 
 const { Animated } = DangerZone;
 const {
-  Value, block, call, divide, round, cond, neq, diff, set, onChange,
+  Value, block, call, divide, round, debug, cond, neq, diff, set, onChange,
 } = Animated;
 const emojis = require("./assets/emoji-db.json");
 
@@ -28,10 +28,16 @@ const numberOfLanguages = Object.keys(emojis[emojiList[0]]).length;
 export default () => {
   const slider = new Value(0);
   const x = new Value(0);
-  const y = new Value(0);
-  const index = round(divide(x, EMOJI_WIDTH));
+  const y = new Value(0); // Vertical Pan
+  const index = round(divide(x, EMOJI_WIDTH)); // As swipe left and right on middle portion, calculate index based on x-coordinate div by width of each emoji-symbol.
   return (
     <View style={styles.container}>
+      {/* The debug code below should allow me to view index values in a node window */}
+      <Animated.Code>
+        {
+          () => debug("index = ", index)
+        }
+      </Animated.Code>
       <View style={styles.container}>
         <Translations
           max={(verticalPanHeight - 150) * -1}
@@ -39,8 +45,10 @@ export default () => {
           {...{ emojis, y, index }}
         />
       </View>
+      {/* x = animation values */}
       <Emojis {...{ emojis, x }} />
       <View style={styles.container}>
+        {/* Use RL created Translation.tsx component to handle language XX = english */}
         <Translation style={styles.english} lang="en" {...{ index }} />
       </View>
       <Animated.ScrollView
@@ -50,8 +58,11 @@ export default () => {
         showsVerticalScrollIndicator={false}
         onScroll={onScroll({ y })}
         scrollEventThrottle={1}
+        snapToInterval={verticalPanHeight}
+        decelerationRate="fast"
         vertical
       >
+        {/* snapToInterval so when scroll it locks to perfect interval between languages */}
         <Animated.ScrollView
           style={StyleSheet.absoluteFillObject}
           showsHorizontalScrollIndicator={false}
@@ -83,28 +94,33 @@ const styles = StyleSheet.create({
   },
   verticalPan: {
     position: "absolute",
-    top: 0,
+    top: 0, // Very top of screen
     left: 0,
     right: 0,
-    height: verticalPanHeight,
+    height: verticalPanHeight, // Height of top portion
+    // backgroundColor: "rgba(100,200,300,0.5)"
   },
   verticalPanContent: {
     height: verticalPanHeight * 2,
   },
   horizontalPan: {
     position: "absolute",
-    top: verticalPanHeight,
+    top: verticalPanHeight, // Down from top by verticalPanHeight.
     left: 0,
-    height: horizontalPanHeight,
+    height: horizontalPanHeight, // Height of main symbols you swipe across middle of screen.
+    // backgroundColor: "rgba(300,300,0,0.5)"
   },
   horizontalPanContent: {
     width: EMOJI_WIDTH * numberOfEmojis,
   },
+  sliderContent: {
+    width: width * (numberOfLanguages - 1),
+  }, // Subtract 1 bec language XX is below.
   english: {
     margin: 48,
     textAlign: "center",
     fontSize: 48,
-    color: "black",
+    color: "purple",
     fontWeight: "bold",
   },
 });

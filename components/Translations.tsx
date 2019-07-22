@@ -39,6 +39,7 @@ interface TranslationsProps {
 
 export default class Translations extends React.PureComponent<TranslationsProps> {
   render() {
+    // Limit translateY <= maxVal so cannot swipe top section completely up or down from view
     const {
       y, x, max: maxVal, index,
     } = this.props;
