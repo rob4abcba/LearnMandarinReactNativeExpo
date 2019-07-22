@@ -58,8 +58,8 @@ export default class Translations extends React.PureComponent<TranslationsProps>
         {
           Object.keys(colors).map(lang => (
             <SafeAreaView key={lang} style={{ width, height: "100%", backgroundColor: colors[lang] }}>
-              <Text style={styles.flag}>{flags[lang]}</Text>
               <Translation style={styles.translation} {...{lang, index}} />
+              <Text style={styles.flag}>{flags[lang]}</Text>
             </SafeAreaView>
           ))
         }
