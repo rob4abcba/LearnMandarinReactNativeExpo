@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
     margin: 48,
     textAlign: "center",
     fontSize: 48,
-    color: "purple",
+    color: "black",
     fontWeight: "bold",
   },
 });
