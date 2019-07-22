@@ -40,7 +40,7 @@ export default () => {
       </Animated.Code>
       <View style={styles.container}>
         <Translations
-          max={(verticalPanHeight - 150) * -1}
+          max={(verticalPanHeight - 125) * -1}
           x={slider}
           {...{ emojis, y, index }}
         />
