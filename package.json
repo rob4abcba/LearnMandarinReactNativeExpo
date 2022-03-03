@@ -9,6 +9,7 @@
   "dependencies": {
     "@types/expo": "^33.0.0",
     "expo": "^33.0.0",
+    "expo-constants": "~5.0.1",
     "lodash": "^4.17.15",
     "react": "16.5.0",
     "react-dynamic-font": "^2.0.1",
