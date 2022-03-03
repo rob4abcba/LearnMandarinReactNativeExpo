@@ -3,7 +3,9 @@ import React from "react";
 import {
   StyleSheet, View, Dimensions,
 } from "react-native";
-import { DangerZone, Constants } from "expo";
+import { DangerZone } from "expo";
+
+import Constants from 'expo-constants';
 
 import Emojis from "./components/Emojis";
 import { EMOJI_WIDTH, EMOJIS_OFFSET } from "./components/Model";

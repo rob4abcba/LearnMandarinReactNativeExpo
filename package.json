@@ -8,11 +8,12 @@
   },
   "dependencies": {
     "@types/expo": "^32.0.13",
-    "lodash": "^4.17.15",
-    "react-dynamic-font": "^2.0.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
     "expo": "^33.0.0",
-    "react": "16.8.3"
+    "expo-constants": "^5.0.1",
+    "lodash": "^4.17.15",
+    "react": "16.8.3",
+    "react-dynamic-font": "^2.0.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0"
