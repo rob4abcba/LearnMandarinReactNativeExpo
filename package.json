@@ -7,15 +7,15 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^34.0.0",
-    "expo-constants": "~6.0.0",
+    "expo": "^35.0.0",
+    "expo-constants": "~7.0.0",
     "lodash": "^4.17.15",
     "react": "16.8.3",
     "react-dynamic-font": "^2.0.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.2.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz"
   },
   "devDependencies": {
-    "babel-preset-expo": "^6.0.0"
+    "babel-preset-expo": "^7.0.0"
   },
   "private": true
 }
